@@ -1,0 +1,10 @@
+node_modules
+dist
+*.env
+.DS_Store
+.vscode
+yarn-error.log
+.idea
+.editorconfig
+build/
+package-lock.json
