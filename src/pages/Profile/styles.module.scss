@@ -1,0 +1,23 @@
+@import 'styles/_vars.scss';
+
+
+.load {
+  color: $color-gold;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 4px;
+}
+
+.gold {
+  color: $color-gold;
+  margin-left: 4px;
+}
+
+.line {
+  margin-bottom: 15px;
+}
+
+.label {
+  min-width: 200px;
+}

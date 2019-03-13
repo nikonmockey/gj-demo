@@ -1,0 +1,99 @@
+@import 'styles/_vars.scss';
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: $color-blue-dark;
+  background: url(./images/main-bg.jpg) top no-repeat;
+  li {
+    list-style: none;
+  }
+  button {
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    font-weight: 600;
+  }
+}
+
+.header, .footer {
+  width: 100%;
+  max-width: 1400px;
+  height: 70px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  height: 70px;
+  li {
+    color: white;
+    text-transform: uppercase;
+    margin-right: 40px;
+    font-weight: 600;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.login {
+  color: white;
+  margin: 0 30px;
+  background-color: transparent;
+}
+
+.reg {
+  background-color: $color-gold;
+  border-radius: 30px;
+  padding: 16px 40px;
+}
+
+
+.info {
+  & > * {
+    color: $color-blue-light;
+    font-size: 11px;
+    margin-right: 60px;
+    padding-bottom: 2px;
+    &:not(:first-child) {
+      border-bottom: 1px solid $color-blue-light;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.social {
+  a {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 10px;
+  }
+}
+
+.fb {
+  background-image: url(./images/fb.svg)
+}
+.yt {
+  background-image: url(./images/yt.svg)
+}
+.tg {
+  background-image: url(./images/tg.svg)
+}
+.ig {
+  background-image: url(./images/ig.svg)
+}
+.vk {
+  background-image: url(./images/vk.svg)
+}
+
+
+.children {
+  height: calc(100vh - 140px);
+}

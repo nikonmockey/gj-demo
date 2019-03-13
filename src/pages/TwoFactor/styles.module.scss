@@ -1,0 +1,46 @@
+@import 'styles/_vars.scss';
+
+
+.load {
+  color: $color-gold;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 4px;
+}
+
+.gold {
+  color: $color-gold;
+  margin-left: 4px;
+}
+
+.line {
+  margin-bottom: 15px;
+}
+
+.label {
+  min-width: 200px;
+}
+
+.text {
+  padding: 20px 0;
+}
+
+.links {
+  padding: 20px 0;
+  a {
+    color: $color-gold;
+  }
+}
+
+.qr {
+  padding: 20px;
+}
+
+.code {
+  margin-left: 20px;
+  width: 320px;
+  height: 130px;
+  background-color: lighten($color-blue-light, 25%);
+  border-radius: 12px;
+}

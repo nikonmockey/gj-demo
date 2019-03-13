@@ -1,0 +1,32 @@
+$color-white: white;
+$color-grey: #9D9D9D;
+$color-dark: #4a4c66;
+
+$color-blue-dark: rgb(43, 44, 59);
+$color-blue-light: #9db1cc;
+$color-gold: #f9ce43;
+
+$color-bg-day: rgb(239, 244, 246);
+$color-bg-night: $color-blue-dark;
+
+$color-paper-day: $color-white;
+$color-paper-night: #3f4054;
+
+$color-prime: #011430;
+$color-second: #00A6B7;
+
+$color-span: #8c8db3;
+
+
+$margin-container: 24px;
+
+$border-radius: 16px;
+
+$boxshadow-cont: 0px 5px 15px rgba($color-grey, .1);
+$boxshadow-icon: 0px 3px 8px rgba($color-blue-dark, .2);
+
+$trans-timing: 3s;
+$trans-easing: cubic-bezier(0.075, 0.82, 0.165, 1);
+$trans-short: .3s ease-in;
+
+$zindex-nav: 100;

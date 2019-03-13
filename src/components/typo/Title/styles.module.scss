@@ -1,0 +1,10 @@
+@import 'styles/_vars.scss';
+
+.heading {
+  &.day { color: $color-dark; }
+  &.night { color: $color-white; }
+  font: {
+    size: 20px;
+    weight: bold;
+  }
+}

@@ -1,0 +1,97 @@
+@import 'styles/_vars.scss';
+
+.span {
+  color: #828393;
+  font-size: 16px;
+  width: 70%;
+  @media (max-width: 440px) {
+    width: 100%;
+  }
+}
+
+.coinLink {
+  padding: 10px 20px;
+  border: 1px solid;
+  font-size: 15px;
+  border-radius: 20px;
+  width: 90%;
+  @media (max-width: 440px) {
+    font-size: 11px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 5px;
+  }
+}
+
+.box {
+  background-color: #f5f7fa;
+  padding: 55px;
+  border-left: 2px solid #3f3f6e;
+  @media (max-width: 440px) {
+    padding: 10px;
+  }
+}
+
+.link {
+  color: $color-gold;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.linkIndent {
+  padding-left: 20px;
+}
+
+.icon {
+  fill: #5a5b75;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: #eff4f6;
+  margin-right: 10px;
+  height: 35px;
+  width: 35px;
+  @media (max-width: 440px) {
+    margin: 0 5px;
+  }
+}
+
+.wrapper {
+  @media (max-width: 440px) {
+    width: 100%;
+  }
+}
+
+.cardWrapper {
+  @media (max-width: 440px) {
+    padding: 10px;
+    width: 100%;
+  }
+}
+
+.red {
+  color: #fe8a86;
+}
+
+.green {
+  color: #8dd88f;
+}
+
+.cardSpan {
+  color: #4a4c66;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.copyIcon {
+  background-color: #2b2c3c;
+  padding: 8px;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  box-shadow: 0 8px 12px rgba(#4a4b67, .3)
+}
+
+.margin {
+  margin-top: 10px;
+}

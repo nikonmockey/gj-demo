@@ -1,0 +1,7 @@
+@import 'styles/_vars.scss';
+
+.wrapper {
+  @media (max-width: 440px) {
+    flex-direction: column;
+  }
+}

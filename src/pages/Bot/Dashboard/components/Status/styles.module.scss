@@ -1,0 +1,30 @@
+@import 'styles/_vars.scss';
+
+.span {
+  margin-bottom: 34px;
+  color: #6b6d82;
+  font-weight: 500;
+}
+
+.line {
+  padding: 20px;
+  background-color: #fceae8;
+  border-radius: 5px;
+}
+
+.lineSpan {
+  color: #ff614a !important;
+  font-weight: 800;
+}
+
+.status {
+  padding: 5px;
+  background-color: #ff5135;
+  margin-right: 10px;
+  border-radius: 2px;
+  box-shadow: 0px 5px 10px rgba(252,82,62,0.39);
+}
+
+.nightLine {
+  background-color: #35364a;
+}

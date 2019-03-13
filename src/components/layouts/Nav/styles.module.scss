@@ -1,0 +1,65 @@
+@import 'styles/_vars.scss';
+
+
+.container {
+  position: fixed;
+  top: 0; left: 0;
+  height: 100vh;
+  width: 60px;
+  background-color: #1f202b;
+  overflow: hidden;
+  transition: width .2s, transform .2s;
+  z-index: $zindex-nav;
+  &:hover {
+    width: 280px;
+    .logotext {
+      opacity: 1;
+    }
+    .hr {
+      width: 260px;
+    }
+  }
+  @media screen and (max-width: 440px) {
+    width: 80%;
+    transform: translateX(-100%);
+  }
+}
+
+.wrapperLogo {
+  padding: 24px 0 24px 16px;
+  cursor: pointer
+}
+
+.logotext {
+  width: 110px;
+  height: 30px;
+  background: url(./images/logotext.png) no-repeat;
+  background-position: -34px 0;
+  margin-left: 8px;
+  opacity: 0;
+  transition: opacity .3s;
+}
+
+.hr {
+  width: 40px;
+  height: 1px;
+  background-color: $color-blue-light;
+  margin: 0 auto;
+  transition: width .3s ease-in .2s;
+}
+
+.close {
+  display: none;
+  position: absolute;
+  left: calc(100% - 24px);
+  width: 32px;
+  height: 32px;
+  font-size: 24px;
+  color: white;
+  z-index: 1000;
+  font-weight: 300;
+  cursor: pointer;
+  @media (max-width: 440px) {
+    display: block;
+  }
+}

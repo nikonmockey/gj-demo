@@ -1,0 +1,25 @@
+@import 'styles/_vars.scss';
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  padding-top: 10px;
+  width: 100%;
+  height: 60px;
+  margin-top: auto;
+  margin-bottom: 0;
+  a span {
+    border-bottom: 1px solid $color-blue-light;
+    transition: color $trans-short, border-color $trans-short;
+    &:hover {
+      color: $color-gold;
+      border-color: $color-gold;
+    }
+  }
+  @media (max-width: 440px) {
+    span {
+      font-size: 8px;
+    }
+  }
+}

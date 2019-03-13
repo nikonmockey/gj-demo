@@ -1,0 +1,16 @@
+@import 'styles/_vars.scss';
+
+.sections {
+  margin-bottom: 20px;
+  & > span {
+    width: calc(25% - 16px);
+    margin-right: 16px;
+    border-right: 1px solid lightgrey;
+    text-transform: uppercase;
+    font-weight: 500;
+    &:last-child {
+      margin-right: 0;
+      border-right: none;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+@import 'styles/_vars.scss';
+
+.container {
+  height: 90px;
+  border-bottom: 1px dashed lightgrey;
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.info {
+  width: calc(50% - 30px);
+}
+
+.circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  // background-color: green;
+  margin-right: 8px;
+  &.red {
+    background: linear-gradient(rgba(#ff967f, .3), rgba(#e32624, .3));
+  }
+  &.green {
+    background: linear-gradient(rgba(#71ff97, .3), rgba(#296e3c, .3));
+  }
+  &.nightRed {
+    background: linear-gradient(#ff967f, #e32624);
+  }
+  &.nightGreen {
+    background: linear-gradient(#71ff97, #296e3c);
+  }
+}
+
+.arrow {
+  width: 16px;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.up {
+  transform: rotate(-90deg);
+  fill: green;
+}
+
+.down {
+  transform: rotate(90deg);
+  fill: red;
+}

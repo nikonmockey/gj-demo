@@ -1,0 +1,21 @@
+@import 'styles/_vars.scss';
+
+.digit {
+  font-size: 48px;
+  line-height: 1;
+  // color: $color-dark;
+  sup {
+    display: inline-block;
+    min-width: 55px;
+    vertical-align: 10px;
+    font: {
+      size: 40%;
+    }
+  }
+  &.day { color: $color-dark; }
+  &.night { color: $color-white; }
+}
+
+.bold {
+  font-weight: 700;
+}

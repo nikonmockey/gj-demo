@@ -1,0 +1,9 @@
+@import 'styles/_vars.scss';
+
+.container {
+  height: 1px;
+  border-radius: 5px;
+  margin: 20px 0;
+  &.day { background-color: lighten($color-blue-light, 20%); }
+  &.night { background-color: lighten($color-blue-dark, 20%); }
+}

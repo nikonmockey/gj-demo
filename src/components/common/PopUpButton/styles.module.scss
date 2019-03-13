@@ -1,0 +1,21 @@
+.popUpText {
+  width: 275px;
+  padding-bottom: 15px;
+  transition: color 0.5s cubic-bezier(1,1,1,1);
+  font-size: 16px;
+}
+
+.popUpButton {
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.wrapper {
+  position: fixed;
+  right: 0;
+  bottom: 20%;
+  zIndex: 99999;
+  transition: margin-right 0.5s;
+}

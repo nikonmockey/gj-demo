@@ -1,0 +1,33 @@
+@import 'styles/_vars.scss';
+
+.span {
+  margin-bottom: 34px;
+  color: #6b6d82;
+  font-weight: 500;
+}
+
+.title {
+  margin-bottom: 15px;
+  // color: $color-dark;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.bonusLine {
+  width: 32%;
+  height: 7px;
+  background-color: #2fc234;
+  border-radius: 50px;
+  box-shadow: 0 10px 20px rgba(47,194,52, 0.5);
+}
+
+.bonusLineInactive {
+  width: 32%;
+  height: 7px;
+  background-color: #f2f4f6;
+  border-radius: 50px;
+}
+
+.nightLine {
+  background-color: #35364a;
+}

@@ -1,0 +1,22 @@
+@import 'styles/_vars.scss';
+
+.button {
+  height: 50px;
+  padding: 0 100px;
+  width: auto;
+  margin: 0;
+  color: $color-dark;
+  background-color: $color-gold;
+  text-transform: uppercase;
+  font-weight: bold;
+  ouline: none;
+  border: none;
+  appereance: none;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: box-shadow .4s;
+  box-shadow: 0 8px 12px rgba($color-gold, .8);
+  &:hover {
+
+  }
+}

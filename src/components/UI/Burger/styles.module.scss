@@ -1,0 +1,14 @@
+@import 'styles/_vars.scss';
+
+.burger {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: url('./burger.svg') no-repeat center;
+  background-color: $color-second;
+  cursor: pointer;
+  transition: box-shadow .3s;
+  &:hover {
+    box-shadow: 0 3px 6px rgba(black, .1);
+  }
+}

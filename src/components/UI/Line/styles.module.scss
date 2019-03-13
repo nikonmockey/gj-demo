@@ -1,0 +1,15 @@
+@import 'styles/_vars.scss';
+
+.container {
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  &:last-child {
+    margin-bottom: 16px;
+  }
+  &.day { background-color: lighten($color-blue-light, 20%); }
+  &.night { background-color: #35364a; }
+  @media (max-width: 440px) {
+    padding: 8px;
+  }
+}

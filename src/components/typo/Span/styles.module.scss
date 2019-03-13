@@ -1,0 +1,19 @@
+@import 'styles/_vars.scss';
+
+.span {
+  &.day {
+    color: #4a4c66;
+  }
+  &.night {
+    color: #8181a7;
+  }
+  font: {
+    size: 14px;
+    weight: 400;
+  }
+}
+
+// .dark {
+//   color: #8181a7;
+//   font-weight: 500;
+// }

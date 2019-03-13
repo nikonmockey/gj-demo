@@ -1,0 +1,76 @@
+@import 'fonts';
+@import 'vars';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Ubuntu", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font: {
+    family: $font;
+    weight: 400;
+  }
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.opened-nav {
+  transform: translateX(0);
+}
+
+.recharts {
+  &-tooltip-cursor {
+    stroke: $color-gold;
+  }
+
+  &-active-dot circle {
+  r: 4;
+  stroke: $color-gold;
+  fill: #fff;
+  }
+  &-xAxis {
+  & .recharts-cartesian-axis-tick {
+    &:first-child {
+      display: none;
+    }
+    line {
+      display: none;
+    }
+  }
+
+  text {
+    transform: translate(0, 10px);
+    font-size: 0.875rem;
+  }
+  .recharts-cartesian-axis-line {
+    display: none;
+  }
+}
+
+li {
+  list-style-type: none;
+}
+
+&-yAxis {
+  transform: scale(0.95);
+  transform-origin: center left;
+
+  line {
+    display: none;
+  }
+}
+}

@@ -1,0 +1,24 @@
+@import 'styles/_vars.scss';
+
+.container {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 16px;
+  border-radius: 16px;
+  box-shadow: $boxshadow-cont;
+  z-index: 2;
+  &.day { background-color: $color-paper-day; }
+  &.night { background-color: $color-paper-night; }
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba($color-dark, .1);
+  z-index: 1;
+}

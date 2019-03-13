@@ -1,0 +1,38 @@
+@import 'styles/_vars.scss';
+
+.title {
+  font-size: 46px;
+  text-align: center;
+  @media (max-width: 440px) {
+    font-size: 20px;
+  }
+}
+
+.container {
+  margin-top: 20px;
+  margin-left: 33.3%;
+  @media (max-width: 440px) {
+    width: 100%;
+    align-items: center;
+    margin-top: 0;
+    margin-left: 0;
+  }
+}
+
+.span {
+  font-size: 20px;
+  color: $color-dark;
+  text-align: center;
+  @media (max-width: 440px) {
+    font-size: 16px;
+  }
+}
+
+.icon {
+  height: 270px;
+  width: 360px;
+  @media (max-width: 440px) {
+    height: 180px;
+    width: 270px;
+  }
+}

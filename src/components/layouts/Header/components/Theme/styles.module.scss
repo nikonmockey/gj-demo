@@ -1,0 +1,53 @@
+@import 'styles/_vars.scss';
+
+.container {
+  width: 60px;
+  height: 30px;
+  padding: 8px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color .2s;
+}
+
+.icon {
+  height: 15px;
+  opacity: 1;
+  transition: opacity .2s;
+}
+
+.switcher {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  z-index: 10;
+  box-shadow: 0 3px 3px rgba(black, .1);
+  right: 8px;
+  transition: background-color .2s, right .3s;
+}
+
+.day {
+  &.container {
+    background-color: $color-gold;
+  }
+  .switcher {
+    background-color: $color-white;
+    right: 8px;
+  }
+  .icon:nth-child(2) {
+    opacity: 0;
+  }
+}
+
+.night {
+  &.container {
+    background-color: #20212c;
+  }
+  .switcher {
+    background-color: $color-gold;
+    right: calc(100% - 28px);
+  }
+  .icon:first-child {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,18 @@
+@import 'styles/_vars.scss';
+
+.input {
+  flex: 1;
+  height: 50px;
+  max-width: 680px;
+  padding: 0 30px;
+  border-radius: 25px;
+  border: 1px solid lighten($color-blue-light, 20%);
+  outline: none;
+  margin-right: 10px;
+  &:last-child {
+    margin-right: 0;
+  }
+  &.half {
+    max-width: 335px;
+  }
+}

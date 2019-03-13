@@ -1,0 +1,53 @@
+@import 'styles/_vars.scss';
+
+.span {
+  color: #828393;
+  font-size: 16px;
+  width: 70%;
+  @media (max-width: 440px) {
+    width: 100%;
+  }
+}
+
+.box {
+  background-color: #f5f7fa;
+  padding: 55px;
+  border-left: 2px solid #3f3f6e;
+  @media (max-width: 440px) {
+    padding: 10px;
+  }
+}
+
+.link {
+  color: $color-gold;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.linkIndent {
+  padding-left: 20px;
+}
+
+.icon {
+  margin: 0 10px;
+  height: 20px;
+  width: 20px;
+  @media (max-width: 440px) {
+    margin: 0 5px;
+  }
+}
+
+.wrapper {
+  @media (max-width: 440px) {
+    width: 100%;
+  }
+}
+
+.red {
+  color: #fe8a86;
+}
+
+.green {
+  color: #8dd88f;
+}

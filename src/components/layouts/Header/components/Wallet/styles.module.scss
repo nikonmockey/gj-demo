@@ -1,0 +1,25 @@
+@import 'styles/_vars.scss';
+
+.container {
+  cursor: pointer;
+  margin-right: 12px;
+  &:hover {
+    .icon {
+      opacity: 1;
+    }
+  }
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  box-shadow: $boxshadow-cont;
+  opacity: .6;
+  transition: opacity .3s;
+}
+
+.popover {
+  background: transparent;
+  width: 200px;
+}

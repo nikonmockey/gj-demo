@@ -1,0 +1,10 @@
+.popUp{
+  max-height: 140px;
+  max-width: 410px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  padding: 30px 50px;
+  position: relative;
+  transition: background-color 0.5s cubic-bezier(1,1,1,1);
+  cursor: pointer;
+}

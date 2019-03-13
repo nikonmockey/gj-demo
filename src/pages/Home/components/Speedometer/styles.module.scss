@@ -1,0 +1,19 @@
+@import 'styles/_vars.scss';
+
+.row {
+  margin-top: 24px;
+  font-size: 24px;
+  font-weight: 600;
+  align-items: flex-end;
+}
+
+.total {
+  color: $color-gold;
+  font-size: 32px;
+}
+.active {
+  color: green;
+}
+.inactive {
+  color: red;
+}

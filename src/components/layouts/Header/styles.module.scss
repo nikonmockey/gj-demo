@@ -1,0 +1,47 @@
+@import 'styles/_vars.scss';
+
+.container {
+  height: 80px;
+  @media (max-width: 440px) {
+    flex-direction: column-reverse;
+    height: auto;
+  }
+}
+
+.dash {
+  width: 100%;
+  height: 1px;
+  background-color: rgba($color-span, .1);
+  margin: 0 auto;
+  transition: width .3s ease-in .2s;
+  @media (max-width: 440px) {
+    position: absolute;
+    top: 50px;
+    width: calc(100vw - 30px);
+  }
+}
+
+.burger {
+  height: 18px;
+  margin-left: 0;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.title {
+  @media (max-width: 440px) {
+    font-size: 36px;
+    margin-top: 24px;
+  }
+}
+
+.iconswrapper {
+  @media (max-width: 440px) {
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+    margin-left: auto;
+    margin-right: 0;
+  }
+}

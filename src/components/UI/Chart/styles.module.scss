@@ -1,0 +1,33 @@
+@import 'styles/_vars.scss';
+
+.container {
+  width: 100%;
+  height: 100%;
+  max-height: 360px;
+  &.day {
+    .area {
+      stroke: $color-gold;
+    }
+  }
+  &.night {
+  }
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba($color-dark, .1);
+  z-index: 1;
+}
+
+.tooltip {
+  background-color: #2a2c39;
+  border-radius: 8px;
+  color: white;
+  padding: 10px;
+  font-weight: 400;
+  box-shadow: 0px 10px 29px 0px rgba(40, 41, 55, 0.65);
+}

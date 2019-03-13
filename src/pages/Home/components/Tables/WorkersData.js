@@ -1,0 +1,106 @@
+export const head = [
+  {
+    name: 'checkbox',
+    value: '',
+    basis: '7%',
+  },
+  {
+    name: 'title',
+    value: 'name',
+    basis: '20%',
+  },
+  {
+    name: 'active',
+    value: 'STATUS',
+    basis: '8%',
+  },
+  {
+    name: 'm30',
+    value: 'hashrate_last_30min',
+    basis: '10%',
+  },
+  {
+    name: 'h1',
+    value: 'hashrate_last_1hour',
+    basis: '10%',
+  },
+  {
+    name: 'h24',
+    value: 'hashrate_last_day',
+    basis: '15%',
+  },
+  {
+    name: 'accepted',
+    value: 'received',
+    basis: '10%',
+  },
+  {
+    name: 'rejected',
+    value: 'rejected',
+    basis: '10%',
+  },
+  {
+    name: 'diff',
+    value: 'strength',
+    basis: '10%',
+  },
+]
+
+
+export const data = [
+  {
+    checkbox: 'BOX',
+    title: 'mak4862.worker#0',
+    active: '+',
+    m30: '243MH/s',
+    h1: '98MH/s',
+    h24: '772MH/s',
+    accepted: '587',
+    rejected: '662',
+    diff: '4',
+  },
+  {
+    checkbox: 'BOX',
+    title: 'mak4862.worker#1',
+    active: '+',
+    m30: '243MH/s',
+    h1: '98MH/s',
+    h24: '772MH/s',
+    accepted: '587',
+    rejected: '662',
+    diff: '4',
+  },
+  {
+    checkbox: 'BOX',
+    title: 'mak4862.worker#2',
+    active: '-',
+    m30: '243MH/s',
+    h1: '98MH/s',
+    h24: '772MH/s',
+    accepted: '587',
+    rejected: '662',
+    diff: '4',
+  },
+  {
+    checkbox: 'BOX',
+    title: 'mak4862.worker#3',
+    active: '-',
+    m30: '243MH/s',
+    h1: '98MH/s',
+    h24: '772MH/s',
+    accepted: '587',
+    rejected: '662',
+    diff: '5',
+  },
+  {
+    checkbox: 'BOX',
+    title: 'mak4862.worker#4',
+    active: '+',
+    m30: '243MH/s',
+    h1: '98MH/s',
+    h24: '772MH/s',
+    accepted: '587',
+    rejected: '662',
+    diff: '4',
+  },
+]

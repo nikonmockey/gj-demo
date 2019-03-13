@@ -1,0 +1,150 @@
+export default {
+  languages: {
+    Ru: 'Русский (Ru)',
+    En: 'Английский (En)',
+    Id: 'Индонезийский (Ind)',
+  },
+  MY_INCOME: 'Мой доход',
+  INCOME_GRAPH: 'График дохода',
+  YOUR_BALANCE: 'Ваш баланс',
+  YOUR_INCOME: 'Ваш доход',
+  MINING_DASHBOARD: 'Майнинг Dashboard',
+  HASHRATE: 'Hashrate',
+  YOUR_ACCOUNT_HASHRATE: 'Hashrate вашего аккаунта',
+  SUBACCOUNT_STATS: 'Статистика субаккаунтов',
+  YOUR_WORKERS: 'Ваши воркеры',
+  WORKER_STATS: 'Статистика воркеров',
+  SELECTED_WORKERS_HASHRATE: 'Hashrate выбранных воркеров',
+  TRADE_BOTS: 'Dashboard торгового бота',
+  BUTTON_INPUT: 'Ввод',
+  CURRENCY: 'Валюта',
+  BUTTON_OUTPUT: 'Вывод',
+  EXPECTED_BALANCE: 'Ожыдаемый баланс',
+  EXPECTED_BALANCE_TEXT: 'После исполнения всех текущих ордеров',
+  CURRENT_INCOMMMING: 'Текущая прыбыль (за этот месяц)',
+  TABLE: {
+    last30minutes: 'За 30 минут',
+    last1hour: 'За 1 час',
+    last12hours: 'За 12 часов',
+    last24hours: 'За 24 часа'
+  },
+
+  TRUST_BONUS: 'Бонус доверия',
+  STATUS_BOT: 'Статус торгового бота',
+  STOPPED: 'Приостановлен',
+  ORDER_HISTORY: 'История ордеров вашего бота',
+  TYPE: 'тип',
+  RATE_DOLAR: 'курс(USD)',
+  COUNT_CRYPTO: 'количество(BTC)',
+  COUNT_MONEY: 'количество(USD)',
+  REINVEST: 'Реинвест',
+  ALL_TIME: 'За все время',
+  YESTERDAY: 'За вчера',
+  WORKERS: 'ВОРКЕРЫ',
+  EARNING: 'ЗАРАБОТОК(BTC)',
+  SUBACCOUNTS: 'СУБАККАУНТЫ',
+  NOTIFICATION_SETTINGS: 'Настройки уведомления',
+  NOTIFICATION_ME: {
+    TITLE: 'Уведомлять меня',
+    ON_SITE: 'В разделе «Уведомления» на сайте',
+    MY_EMAIL: 'На мою почту',
+    ENTER_NEW_EMAIL: 'Введите новый email',
+    ANOTHER_EMAIL: 'на другую почту'
+  },
+  NOTIFICATION_LANG: {
+    TITLE: 'Язык уведомления',
+    RUS: 'Русский',
+    ENG: 'Английский'
+  },
+  NOTIFICATION_EVENTS: {
+    TITLE: 'Уведомлять меня по следущим событиям',
+    COMMON: {
+      TITLE: 'Общие',
+      SUCCESS_SIGN_IN: 'Успешный вход в акаунт',
+      CHANGE_DATE: 'Ваши личные даные (имя, email, тедефон, пароль) были изменены',
+      GOOGLE_AUTH: 'Google Authentificator был Вкл./Отклю',
+      NEWS: 'Обновления и новости платвормы Goldjob'
+    },
+    BOT_FUND: {
+      TITLE: 'Торговый бот',
+      CHANGE_STATUS: 'Статус бота изменен (активен/приостановлен)',
+      CHANGE_BALANCE: 'Пополнения баланса (ввод/реинвест/начисления)',
+      WITHDRAWAL_FUNDS: 'Вывод средств (заказан/исполнен)'
+    },
+    MINE_PULL: {
+      TITLE: 'Майнинг пул',
+      WORKER_ENABLE: 'Воркер «X» неактивен/снова активен', // TODO: X?
+      CHANGE_WALLET: 'В субакаунте «X» был установлен/изменен кошелек на вывод',
+      SELECT_REINVEST: 'В субакаунте «X» был установлен реинвест'
+    },
+    TELEGRAM_NOTIFICATION: 'Также вы можете получать уведомления об отключении ваших устройств (воркеров) в нашем ',
+    TELEGRAM_LINK: 'телеграмм боте.',
+    FOR_PARTNERS: {
+      TITLE: 'Партнерам',
+      NEW_REGISTRATION: 'Новый пользователь зарегистрировался по вашей ссылке',
+      INCOME_COMMISSION: 'Начислена комиссия',
+      WITHDRAWAL_FUNDS: 'Вывод средств (заказан/исполнен)'
+    }
+  },
+  SAVE: 'Сохранить',
+  ALL_BALANCE: 'Общий баланс',
+  INPUT_LOGS: 'Логи входов',
+  EXIT: 'Выйти',
+  SETTINGS: 'Настройки',
+  PERSONAL_DATA: 'Персональные даные',
+  AUTH: 'Двухэтапная аторизация',
+  SETTINGS_NOTIFICATION: 'Настройки уведомления',
+  LANGUAGES: 'Языки',
+  SEARCH_BY_NAME: 'Поиск по названию',
+  ALL_STATUS: 'Все статусы',
+  ACTIVE_STATUS: 'Активний',
+  INACTIVE_STATUS: 'Неактивний',
+  WORKER_ON_PAGE: 'Воркеров на странице',
+  BTN_MORE: 'Развернуть',
+  BTN_LESS: 'Свернуть',
+
+  selected: '',
+  name: 'Название  воркера',
+  status: 'Статус',
+  hashrate_last_30min: 'Hashrate за 30 мин',
+  hashrate_last_1hour: 'Hashrate за 1 час',
+  hashrate_last_day: 'Hashrate за 24 часа',
+  received: 'Принято',
+  rejected: 'Отклонено',
+  strength: 'Сложность',
+
+  sHours: 'часов',
+  sDays: 'За %s день',
+  allDays: 'За все время',
+  ALL_ACCOUNT: 'Все аккаунты',
+  ALL_SUBACCOUNT: 'Все субаккаунты',
+  NOTIFICATION: 'Уведомления',
+  ALL_READ: 'Отметить все, как прочитаные',
+  ALL_NOTIFICATION: 'Смотреть все уведомдения',
+  CURRENT: 'Текущий',
+  ONEHOUR: '1 час',
+  ALLDAY: '24 часа',
+  ACTIVE: 'Активные',
+  NONACTIVE: 'Неактивные',
+  ALL: 'Всего',
+  ALLTIME: 'Все время',
+  PAID: 'Выплачено',
+  BALANCE: 'Баланс',
+  TRADE_BOT: 'ТОРГОВЫЙ БОТ',
+  MINING_POOL: 'МАЙНИНГ ПУЛ',
+  HERTZ: 'HERTZ',
+  PARTNERS: 'ПАРТНЕРЫ',
+  SUPPORT: 'ПОДДЕРЖКА',
+  GOLDJOB_POOL_STATS: 'Статистика пула GoldJob',
+
+  nav: {
+    bot: {
+      name: 'Торговый Бот',
+      subsections: {
+       dashboard: 'Dashboard',
+       botInfo: 'Bot Information',
+       history: 'History',
+      }
+    }
+  },
+}

@@ -1,0 +1,23 @@
+@import 'styles/_vars.scss';
+
+.container {
+  &.day { background-color: $color-bg-day; }
+  &.night { background-color: $color-bg-night; }
+  transition: background-color $trans-timing $trans-easing;
+}
+
+.spacing {
+  flex: 0 0 60px;
+  @media (max-width: 440px) {
+    display: none;
+  }
+}
+
+.wrapper {
+  padding: 0 44px;
+  // 80 - footer, 140 - header
+  min-height: 100vh;
+  @media (max-width: 440px) {
+    padding: 0 15px;
+  }
+}

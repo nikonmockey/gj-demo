@@ -1,0 +1,28 @@
+@import 'styles/_vars.scss';
+
+.switchBtn {
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 8px 16px 0px;
+  box-shadow: none;
+  background-color: transparent;
+  border-radius: 0px;
+  &:focus {
+    outline:0;
+  }
+  @media (max-width: 440px) {
+    font-size: 10px;
+  }
+}
+
+.switchBtnActive {
+  border-bottom: 3px solid $color-gold;
+}
+
+.noMargin {
+  margin: 0;
+}
+
+.btnNight {
+  color: white;
+}
